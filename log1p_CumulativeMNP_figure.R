@@ -48,8 +48,7 @@ ggplot(data = count_tab_log1p,
   scale_color_viridis_c(option = "B")+
   theme_pubr(legend = "right")
 ################################################################################
-range(df$PC)
-df
+
 ggplot(data = df,
        mapping = aes(x = Birth.weight,
                      y = PU))+
