@@ -1,6 +1,6 @@
 # Load necessary libraries
 library(tidyverse)
-
+as_tibble(data)
 # Load the dataset
 # data <- read.tcsv("count_tab_log1p.csv")
 # data<-count_tab_log1p
@@ -42,3 +42,4 @@ aor_table <- cbind(Adjusted_Odds_Ratio = exp_coef,
 
 # Print the table
 print(aor_table)
+
